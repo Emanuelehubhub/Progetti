@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css"
+    integrity="sha512-BiFZ6oflftBIwm6lYCQtQ5DIRQ6tm02svznor2GYQOfAlT3pnVJ10xCrU3XuXnUrWQ4EG8GKxntXnYEdKY0Ugg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+  <title>Home</title>
+</head>
+
+<body class="esperiment">
+
+
+
+  <div class="header">
+    <ul class="nav__menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="storia.html">Storia</a></li>
+      <li><a href="prodotti.html">Prodotti</a></li>
+      <li><a href="formazione.html">Formazione</a></li>
+      <li><a href="contatti.html">Contatti</a></li>
+    </ul>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+
+  <div class="logo__due img-res"><img src="./logo.jpg" alt="">
+    <div id="nav" class="nav__ridimensionata img-res reveal">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active btn-secondary" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn-outline-dark" href="storia.html">Storia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn-outline-dark" href="prodotti.html">Prodotti</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn-outline-dark" href="formazione.html">Formazione</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn-outline-dark" href="contatti.html">Contatti</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="carousel" class="container img-res reveal">
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./immagini/austin-ban-IS6RwpuEJpY-unsplash.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 id="cieciow">Il "panettiere"</h2>
+            <p id="cecio"><i> "che ci mette la passione".</i></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./immagini/evi-radauscher-NLlvBb9sLts-unsplash.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 id="cieciow">Il "Grano"</h2>
+            <p id="cecio"><i> "Solo il migliore del nostro territorio"</i></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./immagini/mae-mu-m9pzwmxm2rk-unsplash.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 id="cieciow">La "dolcezza"</h2>
+            <p id="cecio"><i>"della mattina"</i></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./immagini/jude-infantini-rYOqbTcGp1c-unsplash.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 id="ceciow">La "croccantezza".</h2>
+            <p id="cecio"><i> "del pane appena sfornato"</i></p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- SECTION1  -->
+  <div id="contenitore__primo" class="container">
+    <div id="container__s1" class="container__s1 ">
+      <div class="container__s1__sx reveal"></div>
+      <div class="container__s1__dx  reveal">
+        <h1> La <span>nostra storia...</span></h1>
+        <h5> <i> "La <span>nostra azienda,</span> è stata costruita sulla storia centenaria della <span>nostra
+              famigia</span>,
+            e con il successo delle nuove genererazioni, siamo riusciti a <span>migliorarci</span> e a crescere, facendo
+            diventare i nostri prodotti sempre più buoni.
+            L'<span>esperienza,</span> e gli anni di lavoro, hanno anche contribuito ad un lavoro più
+            <span>sostenibile</span> e senza sprechhi, garentendo
+            un <span>territorio</span> più consapevole delle notre risorse". </i></h5>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SECTION 2 -->
+  <div id="container__s2" class="container">
+    <div class="container__s2">
+      <div class="container__s2__sx"></div>
+
+      <div class="container__s2__centro reveal">
+        <h1>I <span><i> nostri prodotti</i></span></h1>
+        <h4><i> Le<span><i> nostre lavorazioni</i></span> è preparato e "coccolato" dalle mani esperte dei nostri
+            <span><i>panettieri</i></span> , i quali, usano solo
+            farine del nostro territorio, favorendo così, le piccole <span><i> aziende locali</i></span>, e le
+            <span><i>giovani realtà</i></span> .
+            Nel nostro impasto usiamo solo <span><i> “lievito madre”</i></span>, la più antica forma di fermentazione
+            conosciuta dall’uomo, così da far esaltare maggiormente gli
+            <span><i>aromi</i></span> e i<span><i>sapori</i></span> delle <span><i>nostre farine</i></span>.</i></h4>
+      </div>
+
+      <div class="container__s2__dx"></div>
+
+    </div>
+  </div>
+
+  <!-- FLIKITY -->
+  <div class="flikity__color__banda">
+    <div id="flikity" class="container">
+      <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+        <div class="carousel-cell">
+          <div class="carousel-cell__content zoom">
+            <i><b>"Glutin-free"</b></i>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="carousel-cell__content zoom">
+            <i><b>"Mordbidezza"</b></i>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="carousel-cell__content zoom">
+            <i><b>"Lievito madre"</b></i>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="carousel-cell__content zoom">
+            <i><b>"Croccantezza"</b></i>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="carousel-cell__content zoom">
+            <i><b>"Farina integrale"</b></i>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="carousel-cell__content">
+            <i><b>"Prodotti biologici"</b></i>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <div class="carousel-cell__content">
+            <i><b>"Materie Km "0""</b></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- BANDA PHOTO -->
+
+  <div id="section" class="container reval">
+    <div class="section">
+    </div>
+  </div>
+
+  <!-- section 4 -->
+
+  <div id="section__4" class="container">
+    <div class="section__4  reveal">
+      <h1><i>"Formazione"</i></h1>
+    </div>
+
+    <div id="ridimensiono" class="section__4__block reveal">
+      <h4><span>"Il piccolo forno</span> , non è solo un negozio, ma è anche un posto famigliare, in cui si può imparare
+        <span>l'antica arte
+          della panetteria</span>, tramite i percorsi di formazione e di stage A fine corso verrà rilascio
+        un attestato di frequenza. Se ti piace <span>metterti alla prova</span>, e vuoi ampliare le tue conoscenze,
+        entra a
+        far parte del <span><i>nostro gruppo."</i></span>
+      </h4>
+    </div>
+  </div>
+
+  <!-- Esperienze -->
+  <div class="titolo__esperienze">
+    <h1>Alcune esperienze</h1>
+  </div>
+  <div id="esperienze" class="container">
+    <div class="esperienze">
+      <div class="person__sx"></div>
+      <div id="melita" class="person__dx reveal">
+        <h5><span>Melita</span> </h5>
+        <p>La mia esperienza al "Piccolo forno" è stata grandiosa. Mi sono potuta mettere
+          alla prova, scoprendo un lato creativo e intraprendente che non sapevo di avere. Consiglio a tutti un
+          eserpienza tra farina e antichi sapori, in grado di riscoprire
+          il vero valore della nostra Terra. </p>
+      </div>
+    </div>
+
+    <div id="esperienze__primo" class="esperienze">
+      <div id="michele" class="person__dx reveal">
+        <h5><span>Michele</span> </h5>
+        <p>Tra mille impegni e lavoro, al "Piccolo forno", sono riuscito a trovare un angolo
+          di tranquillità. Con i miei copagni di corso, abbiamo instaurato uno spirito
+          di complicità e di sana competizione, cosi da far diventare i nostri
+          preparti ancora più buoni.</p>
+      </div>
+      <div class="person__sx__michele"></div>
+
+    </div>
+
+    <div id="chiara" class="esperienze">
+      <div class="person__sx__chiara"></div>
+      <div class="person__dx reveal">
+        <h5><span>Chiara</span> </h5>
+        <p>Mi chiamo Chiara, ho voluto approfondire la mia passione per i dolci, frequentando "Il Piccolo forno",
+          riscoprendo in me una vera e propria passione, così da incentivarmi ad aprire un mio blog di ricette.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <div id="footeer__index" class="footer">
+    <h5>Panetteria "Il Piccolo forno" vi aspetta a Milano in - via Ripamonti n°15 - </h5>
+    <h5>tel: 357-6025346 - email: ilPiccoloForno@libero.it-</h5>
+    <div class="foot__text"><span>Contattaci, e seguici anche sui social</span></div>
+    <ul class="foot__icon">
+      <li><a href=""><i class="fab fa-instagram"></i></a></li>
+      <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+    </ul>
+
+  </div>
+
+
+
+
+
+
+
+
+
+<scrip src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></scrip>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"
+  integrity="sha512-cA8gcgtYJ+JYqUe+j2JXl6J3jbamcMQfPe0JOmQGDescd+zqXwwgneDzniOd3k8PcO7EtTW6jA7L4Bhx03SXoA=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"> </script>
+
+</body>
+
+</html>

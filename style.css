@@ -1,0 +1,1237 @@
+*{box-sizing: border-box;}
+
+.img-res{
+  width: 100%; height: auto;
+}
+
+
+.esperiment{
+    background:url(./immagini/marek-okon-H2kyVtTjLfU-unsplash.jpg)no-repeat center center ;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+span{
+    color: orange;
+    font-style: italic;
+  }
+
+  li {
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+ .logo__due{
+   display: flex;
+
+ }
+
+  .logo__due img{
+    height: 250px;
+    width: 290px;
+    margin-left: 24px;
+    margin-top: 24px;
+    border-radius: 100px;
+    /* z-index:1 ; */
+
+  }
+
+
+
+/* MENU HAMBURGER */
+
+#hamburger{
+  display: none;
+  }
+  .nav__ridimensionata{
+  }
+
+  #nav{
+    /* width: 100%; */
+  margin-left: 263px;
+  /* z-index: 1; */
+padding-top: 5%;
+  }
+  .nav-item li{
+  }
+.nav__menu{
+  position: absolute;
+  top:0;
+  right:-100%;
+  background:url(./immagini/annie-spratt-0ZPSX_mQ3xI-unsplash.jpg) no-repeat center center;
+  background-size: cover;
+  width:100%;
+  height: 100%;
+  display: none;
+  padding-top: 100px;
+  transition: all 1s cubic-bezier(.215, .61, .355, 1);
+  /* z-index: 2; */
+
+}
+.nav__menu--open{right: 0;}
+.nav__menu--open li{
+  width: 100%;
+  text-align: center;
+padding-top:50px;
+font-size: 50px;
+font-weight: bold;
+padding-right: 40px;
+}
+.nav__menu a{
+  color:black;
+  padding-bottom: 20px;
+
+}
+.nav__menu a:hover{
+  background-color: #555;
+  color: rgb(94, 255, 0);
+  border: 1px solid whitesmoke;
+  border-radius: 12px;
+}
+
+
+
+@media (max-width: 768px){
+.nav__menu{
+  display: block;
+}
+.hamburger{
+  display: block;
+  width: 50px;
+  height: 84px;
+  position:absolute;
+  top: 70px;
+  right: 30px;
+  /* z-index: 2; */
+  }
+  .hamburger span{
+    background: black;
+height: 8px;
+width: 100%;
+display: block;
+margin-bottom: 10px;
+  }
+}
+
+
+
+
+  /* NAVBAR */
+
+
+  .pallo:hover{
+    background-color: orange;
+  }
+
+    /* navbar */
+      .container{
+
+          padding: 12px;
+      }
+  .nav-link{
+   color: #555;
+   font-size: 25px;
+   background-color: whitesmoke;
+   border: 1px solid #000;
+   border-radius: 12px;
+   /* padding: 10px; */
+  }
+  .nav :active{
+    background: #555;
+    color: whitesmoke;
+    border-radius: 4px;
+  }
+  .nav-item{
+    justify-content: center;
+    padding: 10px;
+  }
+  .active{
+    background-color: gray;
+  }
+
+
+span{
+  width: 100%;
+  padding-bottom: 4px;
+}
+
+  /* section-carousel */
+
+      #carouselExampleCaptions{
+          height: 570px;
+      }
+
+     .d-block{
+  width: 100%;
+  height: 570px;
+     }
+     .carousel-caption{
+       font-size: 30px;
+       color: #000;
+     }
+     .carousel-caption p{
+      background-color: rgb(245, 245, 245, 0.5);
+
+     }
+  #cecio{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  #cecioW{
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .titolo__esperienze{
+    display: none;
+  }
+
+
+    /* SECTION1 */
+    .container__s1{
+        display: flex;
+        height: auto;
+        width: 100%;
+        background-color: rgb(245, 245, 245, 0.5);
+      border-radius: 89px;
+      }
+      .container__s1__sx{
+    flex: 1;
+    background: url(./immagini/boston-public-library-O5cnNbbF9j0-unsplash.jpg) no-repeat center center ;
+    background-size: cover;
+      }
+
+      .container__s1__dx{
+    flex:1;
+        text-align: center;
+        padding-top: 16px;
+        background-color: rgb(102, 99, 99);
+        color: rgba(245, 245, 245, 0.918);
+
+    padding: 50px;
+      }
+      .container__s1__dx h5 {
+     padding-top: 15px;
+     display: block;
+      }
+
+
+
+    /* SECTION 2 */
+
+    .container__s2{
+      display: flex;
+    width: 100%;
+    padding: 50px;
+    border: 4px solid gray;
+    border-radius: 12px;
+    }
+    .container__s2__sx{
+      background: url(./immagini/artur-rutkowski-4yzEtTQLdL4-unsplash.jpg)no-repeat;
+    background-size: cover;
+    flex: 0.5;
+    height: auto;
+    border-radius: 10px;
+    border: 5px solid rgb(0, 0, 0);
+    }
+
+    .container__s2__centro{
+      text-align: center;
+      flex: 1;
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-left: 24px;
+    padding-right: 12px;
+    }
+    .container__s2__centro h4{
+      padding-top: 12px;
+    }
+    .container__s2__dx{
+      background: url(./immagini/artur-rutkowski-4yzEtTQLdL4-unsplash.jpg)no-repeat right ;
+    background-size: cover;
+    flex: 0.5;
+    border-radius: 10px;
+    border: 5px solid #000;
+    }
+
+    .section{
+      background: url(./immagini/jude-infantini-rYOqbTcGp1c-unsplash.jpg)no-repeat center center;
+      background-size:cover;
+      margin-top: 51px;
+    }
+
+
+
+    /* SECTION 4 */
+    .section__4{
+      background: url(./immagini/jeremy-yap-h3tP-D2eABI-unsplash.jpg)no-repeat center center;
+      background-size:cover;
+      width: 100%;
+      border: 1px solid #000;
+      border-radius: 12px;
+
+    }
+
+    .section__4 h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 90px;
+    padding: 60px;
+
+    }
+    .section__4__block{
+      font-size: 30px;
+      text-align: center;
+    border: 4px solid #555;
+    border-radius: 12px;
+    margin-top: 20px;
+    }
+    .section__4__block h4{
+      font-size: 34px;
+      padding: 20px;
+    }
+
+
+
+
+    /* FLIKITY */
+    .flikity__color__banda{
+      background-color: rgb(85, 85, 85, 0.9);
+    }
+    .main_carousel{
+      padding: 40px;
+      color: rgba(218,146,71,255);
+      font-size:300px;
+    }
+
+    .carousel-cell{
+      /* height: 340px; */
+      width: 340px;
+      margin-right: 40px;
+    }
+    .carousel-cell__content{
+      background-color: rgb(255, 208, 0);
+      border-radius: 100%;
+      height: 340px;
+      width: 340px;
+      line-height: 350px;
+      text-align: center;
+      margin-right: 40px;
+      font-size: 35px;
+    }
+
+  /* Esperienze */
+
+  .esperienze{
+    display: flex;
+
+  }
+  .person__sx{
+    flex: 0.5;
+    background: url(./immagini/serafima-lazarenko-iXXLYzMNDyQ-unsplash.jpg)no-repeat center center;
+  background-size: contain;
+  /* border-radius: 40px; */
+  }
+
+  .person__dx{
+    flex: 1;
+   background-color: #555;
+   margin: 30px;
+   color: whitesmoke;
+   border-radius: 10px;
+   padding: 30px;
+  }
+
+  .person__dx p{
+    font-size: 20px;
+  }
+
+  .person__sx__michele{
+    flex: 0.5;
+    background: url(./immagini/engin-akyurt-DGPwxWQoPGM-unsplash.jpg)no-repeat center center;
+  background-size: contain;
+  }
+
+  .person__sx__chiara{
+    flex: 0.5;
+    background: url(./immagini/mike-austin-jgSAuqMmJUE-unsplash.jpg)no-repeat center center;
+  background-size: contain;
+  }
+
+
+
+@media (max-width: 768px){
+  #nav{
+    display: none;
+  }
+  #nav__contatti{
+    display:absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+  }
+  .logo__due img{
+    /* height: 334px; */
+    padding: 10px;
+  }
+
+  .logo__due{
+border: 3px solid #000;
+/* display: inline-block; */
+height: auto;
+padding: 50px;
+width: 100%;
+background-color: #555;
+justify-content: center;
+  }
+
+  #carouselExampleCaptions  {
+    display: none;
+  }
+ #cecio{
+   display: none;
+ }
+ #ceciow{
+   display: none;
+ }
+ #carousel{
+  display: none;
+}
+ .carousel{
+   display: none;
+ }
+ .carousel-caption{
+   display: none;
+ }
+ .carousel-item{
+   display: none;
+ }
+
+
+#contenitore__primo{
+height: auto;
+padding-top: 50px
+}
+ #container__s1{
+width: 100%;
+}
+.container__s1__sx{
+
+   height: auto;
+
+   border-radius: 12px;
+}
+.container__s1__dx{
+border: 1px solid #000;
+border-radius: 12px;
+}
+.container__s1 h1{
+  font-size: 30px;
+}
+.container__s1 h5{
+  font-size: 20px;
+}
+
+
+
+ #container__s2{
+height: auto;
+border: 1px solid #000;
+border:2px;
+}
+
+.container__s2{
+}
+.container__s2__sx{
+  display: none;
+
+}
+.container__s2__centro{
+  display: inline-block;
+   color: whitesmoke;
+   background-color: rgb(85, 85, 85, 0.9);
+  /* height: 310px; */
+  border-radius: 13px;
+  border: 4px solid #000;;
+margin:3px;
+  }
+
+.container__s2__centro h1{
+  font-size: 30px;
+}
+.container__s2__centro h4{
+ font-size: 20px;
+ font-weight: initial bold;
+}
+
+.container__s2__dx{
+  margin: 3px;
+}
+
+
+
+
+
+
+#section{
+display: none;
+
+}
+#section__4{
+display: inline-block;
+height: auto;
+justify-content: center;
+margin: 19px;
+}
+#section__4 h1{
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+}
+.section__4__block{
+  background-color: rgb(85, 85, 85, 0.9);
+
+}
+.section__4__block h4{
+   font-size: 12px;
+  color: whitesmoke;
+  padding: 15px;
+
+}
+
+
+
+.flikity__color__banda{
+}
+#flikity{
+  height:auto;
+
+}
+
+.titolo__esperienze{
+text-align: center;
+background-color: #555;
+color: whitesmoke;
+padding: 23px;
+display: block;
+border: 1px solid #000;
+margin-top: 20px;
+}
+
+#esperienze{
+
+  height: auto;
+  display: inline-block;
+  margin-left: 19px;
+}
+
+
+#michele p{
+  font-size: 20px;
+}
+#michele{
+  height: auto;
+
+  border: 1px solid black;
+
+}
+#melita p{
+font-size: 20px;
+}
+#melita{
+  height: auto;
+
+  border: 1px solid black;
+
+}
+
+.person__sx{
+/* display: none; */
+}
+.person__sx__chiara{
+  width: 100%;
+
+      }
+
+
+.person__sx__michele{
+  width: 100%;
+
+      }
+
+
+
+
+
+
+      #footeer__index{
+        height: 320px;
+      }
+
+  }
+
+
+  @media(max-width:377px){
+    .container__s1__sx{
+
+  width: 100%;
+    }
+    .logo__due{
+      padding-left: 12px;
+    }
+    #container__s1{
+  display:inline-block;
+width: 330px;   }
+    .container__s1__sx{
+      height: 200px;
+      margin-bottom: 20px;
+
+    }
+    #container__s2{
+      display: inline-block;
+      display: none;
+    }
+    #section__4{
+      width: 330px;
+    }
+    #section__4 h1{
+      font-size: 25px;
+    }
+    .section__4__block h4{
+      font-size: 1px;
+    }
+    #ridimensiono h4{
+      font-size: 16px;
+    }
+    .person__sx{
+      display: none;
+    }
+    .person__sx__michele{
+      display: none;
+    }
+    .person__sx__chiara{
+      display: none;
+    }
+    #esperienze{
+      width: 330px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /* FOOTER */
+
+  .footer{
+    width: 100%;
+    background-color: #555;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+  }
+  .foot__text{
+  padding-top: 20px;
+  font-size: 30px;
+  text-align: center;
+  }
+  .footer__icon{
+  }
+  .foot__icon li{
+  text-align: center;
+  margin-right: 12px;
+  }
+
+  .footer ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer a{
+    font-size: 50px;
+    color: whitesmoke;
+  }
+  .footer a:hover{
+    color: orange;
+  }
+
+
+
+
+/* CONTATTI */
+@media (max-width: 768px){
+    #nav__contatti{
+      display: none;
+    }
+    #logo__contatti{
+      display: none;
+    }
+    #footer__contatti{
+      display: none;
+    }
+
+  .container__bak{
+    border: 1px solid #000;
+    height: 60px;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .container__bak h1{
+    font-size: 30px;
+  }
+  #section__contatti{
+  height:auto;
+  display: inline-block;
+  margin-top:9px;
+  background-color:rgb(245, 245, 245, 0.1);
+  }
+  #section__contatti .inserimento  {
+    width: 290px;
+    }
+  #section__contatti .section__contatti__sx{
+  font-size: 20px;
+  height: 200px;
+  }
+  .section__contatti__dx{
+  border: 1px solid #000;
+  display: initial;
+  }
+  .foot__text__contatti{
+    display:inline-block;
+    height: 900px;
+  }
+  #foot__text__contatti{
+    height: 200px;
+    background-color: #555;
+    border: 1px solid #000;
+    font-size: 30px;
+    width: 100%;
+  }
+
+  #section__finaly{
+  margin-top: 30px;
+  width: 100%;
+
+  }
+
+  }
+  @media(max-width:376px){
+    #section__finaly{
+      display: none;
+    }
+  }
+
+  #logo__contatti{
+    padding-bottom: 15px;
+  }
+  .container__bak{
+    background-color: whitesmoke;
+  }
+  .container__bak h1{
+    text-align: center;
+  }
+  .section__contatti{
+  display: flex;
+    background-color: whitesmoke;
+    padding:10px;
+    height: 280px;
+  }
+
+  .section__contatti__sx{
+    flex: 1;
+    display: inline-block;
+  }
+  .section__contatti__sx li{
+    margin-top: 28px;
+    font-size: 20px;
+  }
+
+  .section__contatti__dx{
+    flex: 1;
+    padding-top:30px ;
+  }
+
+  .inserimento{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width:230px;
+    height:40px;
+    border-radius: 10px;
+  }
+  .inserimento:hover{
+    background-color: palegreen;
+    border: 2px solid #000;
+  }
+  #inserimento__text{
+    width: 485px;
+    margin-top:20px;
+  }
+
+  #inserimento__bottone{
+  width: 70px;
+  background-color: #555;
+  color: whitesmoke;
+  border-radius: 10px;
+  margin-top:20px ;
+  }
+  #inserimento__bottone:hover{
+    background-color: gray;
+    color: orange;
+  }
+
+
+  #section__finaly{
+    background:url(./immagini/contatti/heylagostechie-N6e9cnOMXEk-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+    height: 500px;
+  }
+  .foot__text__contatti{
+    background-color: #555;
+    height: 200px;
+    padding-top: 50px;
+    font-size: 38px;
+    text-align: center;
+  }
+  .foot__icon__contact{
+    display: flex;
+    justify-content: center;
+  }
+  .foot__icon__contact a{
+    background-color: #555;
+    color: whitesmoke;
+    margin-right: 12px;
+    margin-top: 20px;
+  }
+  .foot__icon__contact a:hover{
+    color: orange;
+  }
+#nav__contatti{
+  padding-top: 150px;
+}
+
+
+/* PRODOTTI */
+@media (max-width: 768px){
+    #navbar__prodotti{
+      display: none;
+    }
+    #logo__prodotti{
+      display: none;
+    }
+
+    .prodotti__farine h1{
+      font-size: 30px;
+      padding-bottom: 14px;
+      padding-left: 26px;
+    }
+    .prodotti__farine h4{
+  font-size: 17px;
+
+  }
+
+  .card{
+    height: 400px;
+
+  }
+  .col .card{
+    justify-content: center;
+  }
+  .col .card img{
+    height: 180px;
+    width: 250px;
+    margin: auto;
+  }
+  .card-title { font-size: 25px;}
+  .card-text{font-size: 15px;}
+
+  #prodotti__contenitore{height: auto;}
+
+  .cover__fineProdotti{display: block;}
+  .conclusione__prodotti h4{margin-left: 34px;}
+  #footer__prodotti{height: 330px;}
+  }
+
+  #navbar__prodotti{
+    padding-top:123px;
+  }
+
+  .prodotti__farine{
+    font-size: 30px;
+    background-color: #555;
+    color: whitesmoke;
+    border-radius: 9px;
+    margin-bottom: 30px;
+    padding: 30px;
+
+  }
+  .col img{
+  height: 300px;
+  border-radius: 12px;
+  }
+  .card:hover{
+    color: whitesmoke;
+    background-color: #555;
+  }
+  .cover__fineProdotti{
+    background: url(./immagini/prodotti/kate-remmer-RZn4_FzNUCY-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+    height: 250px;
+  }
+  .conclusione__prodotti{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .sezione__formazione h2{
+    display: none;
+    }
+
+
+/* FORMAZIONE */
+@media (max-width: 768px){
+  #nav__formazione{
+    display: none;
+  }
+  #formazione__cover{
+    width: 100%;
+    height: 500px;
+  }
+
+  #formazione__cover h1{
+    font-size: 50px;
+    padding-top: 430px;
+  }
+ 
+  #formazione__contenitore{
+    display: ;
+    width:
+    height: 
+  }
+  .formazione__s__sx{
+    margin: 5px;
+
+  }
+  .formazione__s__dx{
+margin: 5px;
+  }
+  #formazione__contenitore h2{
+font-size: 35px;
+  }
+  #formazione__contenitore h5{
+    font-size: 20px;
+  
+      }
+      .panettieri__professori{
+        
+      }
+
+      #panettieri__professori{
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction:column;c */
+        /* align-items: center; */
+          }
+
+          #panettieri__professori .professori__sx{
+        
+          }
+          .professori__dx{
+            padding-left: 55px;
+            padding-top: 12px;
+          }
+          .sezione__formazione{
+            display: none;
+          }
+          .sezione__formazione h2{
+          display: none;
+          }
+
+}
+  @media(max-width:376px){
+    #formazione__section1{
+      display: flex;
+      flex-direction:column-reverse;
+      
+        }
+    #formazione__contenitore{
+         
+        }
+    #formazione__contenitore h2{
+          font-size: 28px;
+            }
+       #formazione__contenitore h5{
+              font-size: 15px;
+            padding-top: 2px;
+                }
+.formazione__s__dx{
+padding-top: 10px;           
+                }
+.formazione__s__sx{
+  display: none;
+}
+#formation h1{
+  font-size: 28px;
+}
+#formation h5{
+  font-size: 15px;
+}
+.professori__centro{
+  padding-top: 12px;
+}
+.sezione__formazione{
+  background: url(./immagini/formazione/jeremiah-lazo-PzTMqgqhVQY-unsplash.jpg)no-repeat center center;
+  display: block;
+  height: 100px;
+background-size: cover;
+text-align: end;
+}
+.sezione__formazione h2{
+padding-top: 50px;
+padding-right: 20px;
+display: block;
+  }
+  }
+
+
+  #formazione__contenitore{
+    width: 100%;
+    height: 100%;
+  }
+  #formazione__section1{
+    height:auto;
+
+  }
+  .formazione__cover{
+    background:url(./immagini/formazione/patrick-fore-m9qWesqRN0M-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+    height: 970px;
+
+  }
+  .formazione__cover h1{
+    color: whitesmoke;
+    padding-left: 33px;
+    padding-top: 820px;
+    font-size: 70px;
+  }
+/* section 1 */
+  .formazione__s__dx{
+    padding: 15px;
+    background-color: #555;
+    color: whitesmoke;
+    border-radius: 12px;
+    height: 100%;
+    flex: 1;
+  }
+ 
+
+  .formazione__s__dx h2{
+    font-size: 50px;
+    margin-top: 15px;
+  }
+  .formazione__s__dx h5{
+    font-size: 25px;
+    margin-top: 40px;
+  }
+
+
+
+
+  .formazione__section1{
+    display: flex;
+    width: 100%;
+  margin-top: 23px;
+
+  }
+  .formazione__s__sx{
+    background: url(./immagini/artur-rutkowski-4yzEtTQLdL4-unsplash.jpg)no-repeat center center;
+    background-size: cover;
+    flex: 1;
+    height: auto;
+width: 100%; 
+  }
+  
+
+ /* section 2 */
+
+  .formazione__panettieri{
+    color: whitesmoke;
+    background-color: #555;
+    border-radius: 12px;
+    padding: 12px;
+
+  }
+  .panettieri__professori{
+    display: flex;
+    padding-top: 43px;
+    width: auto;
+  }
+  .professori__sx{
+    flex:1 ;
+    padding-left: 57px;
+    width: 100%;
+  }
+  .professori__dx img{
+    height: 167px;
+  }
+  .professori__centro{
+    flex: 1
+  }
+
+
+  .professori__dx{
+    flex: 1;
+  }
+  .card img{
+    width: 100%;
+
+  }
+  .card{
+    height: 500px;
+    padding: 23px;
+    width: auto;
+
+  }
+  .card-title{
+    font-size: 40px;
+  }
+  .card-text{
+    font-size: 18px;
+  }
+
+  .formazione__finale{
+    padding-top: 34px;
+    height: 136px;
+  }
+  .formazione__finale h3{
+  text-align: center;
+  }
+
+
+
+
+
+
+
+  /*Storia  */
+
+.cover__colore{
+  background-color: rgb(85, 85, 85, 0.5);
+  height: auto;
+  width: 100%;
+}
+.cover__colore h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 90px;
+}
+.cover{
+  background: url(./immagini/storia/0088-2048x1365.jpg) no-repeat center center;
+  background-size: cover;
+  height: 950px;
+  width: 100%;
+}
+#contenuto__primo{
+  font-size: 25px;
+}
+
+.contenuto__secondo{
+  display: flex;
+}
+.contenuto__s__sx{
+flex: 1;
+}
+
+.contenuto__s__dx{
+  background: url(./immagini/storia/cristian-newman-l9I93gZKTG4-unsplash.jpg) no-repeat center center;
+  background-size:contain ;
+  height: auto;
+  flex: 1;
+}
+.contenuto__terzo{
+  display: flex;
+  height: 300px;
+}
+.contenuto__t__dx{
+  flex: 1;
+  background: url(./immagini/storia/irina-babina-Aop_-stOpnM-unsplash.jpg) no-repeat center center;
+  background-size: cover;
+  height: auto;
+  border: 1px solid #000;
+}
+.contenuto__t__sx{
+  flex:1;
+}
+#contenuto__finale{
+  background: url(./immagini/storia/brett-jordan-hDKNnsZP-as-unsplash.jpg)no-repeat center center;
+  background-size: contain;
+  height: 300px;
+  margin-bottom: 15px;
+}
+@media(max-width:768px){
+  .cover{
+    height: 300px;
+    width: 100%;
+  }
+  #nav__storia{
+    display: none;
+  }
+
+  .contenuto__secondo{
+    display: inline-block;
+  }
+  .contenuto__s__dx{
+    height:400px;
+  }
+  .contenuto__terzo{
+    height: auto;
+    display: inline-block;
+
+  }
+  .contenuto__t__dx{
+    height: 300px;
+  }
+}
+@media(max-width:376px){
+  .cover{
+    width: 100%;
+    height: 300px;
+  }
+  #contenuto__primo{
+    font-size: 17px;
+  }
+  .contenuto__terzo{
+    display: inline-block;
+  }
+  .contenuto__t__dx{
+    height: 300px;
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+  *,
+  *:before
+  *:after{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  }
